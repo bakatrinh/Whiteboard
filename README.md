@@ -1,5 +1,5 @@
 # Whiteboard
-An easy to use "paint" like application that features network ability to broadcast live work to connected clients
+An easy to use "paint" like application that features network ability to broadcast live work to connected clients.
 
 Trinh's Whiteboard allows the user to add rectangular and oval shapes as well as lines and text on a canvas. Each shapes are "layers" which can be oriented in front or behind each other. The user has the ability to change each shape's colors, font, text, or line thickness where applicable.
 
