@@ -1,0 +1,2053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_60" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="DRectModel">
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>204</int>
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>488</int>
+    </void>
+    <void property="locationX">
+     <int>-8</int>
+    </void>
+    <void property="locationY">
+     <int>-6</int>
+    </void>
+    <void property="width">
+     <int>514</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>1</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color0">
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>39</int>
+    </void>
+    <void property="locationX">
+     <int>374</int>
+    </void>
+    <void property="locationY">
+     <int>47</int>
+    </void>
+    <void property="width">
+     <int>83</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>2</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>51</int>
+      <int>255</int>
+      <int>51</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>97</int>
+    </void>
+    <void property="locationX">
+     <int>-48</int>
+    </void>
+    <void property="locationY">
+     <int>342</int>
+    </void>
+    <void property="width">
+     <int>484</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel0">
+    <void property="ID">
+     <int>3</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>153</int>
+      <int>0</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>340</int>
+    </void>
+    <void property="locationX">
+     <int>-9</int>
+    </void>
+    <void property="locationY">
+     <int>340</int>
+    </void>
+    <void id="Point0" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point0"/>
+       <int>-9</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point0"/>
+       <int>340</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point1" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point1"/>
+       <int>413</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point1"/>
+       <int>340</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>5</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>4</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>153</int>
+      <int>102</int>
+      <int>0</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>215</int>
+    </void>
+    <void property="locationX">
+     <int>348</int>
+    </void>
+    <void property="locationY">
+     <int>147</int>
+    </void>
+    <void property="width">
+     <int>32</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel1">
+    <void property="ID">
+     <int>5</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color1">
+      <int>204</int>
+      <int>153</int>
+      <int>0</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>94</int>
+    </void>
+    <void property="locationX">
+     <int>358</int>
+    </void>
+    <void property="locationY">
+     <int>160</int>
+    </void>
+    <void id="Point2" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point2"/>
+       <int>358</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point2"/>
+       <int>160</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point3" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point3"/>
+       <int>292</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point3"/>
+       <int>94</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>6</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color2">
+      <int>102</int>
+      <int>255</int>
+      <int>102</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>370</int>
+    </void>
+    <void property="locationY">
+     <int>125</int>
+    </void>
+    <void property="width">
+     <int>13</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel2">
+    <void property="ID">
+     <int>7</int>
+    </void>
+    <void property="color">
+     <object idref="Color1"/>
+    </void>
+    <void property="height">
+     <int>128</int>
+    </void>
+    <void property="locationX">
+     <int>357</int>
+    </void>
+    <void property="locationY">
+     <int>174</int>
+    </void>
+    <void id="Point4" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point4"/>
+       <int>357</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point4"/>
+       <int>174</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point5" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point5"/>
+       <int>258</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point5"/>
+       <int>128</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel3">
+    <void property="ID">
+     <int>8</int>
+    </void>
+    <void property="color">
+     <object idref="Color1"/>
+    </void>
+    <void property="height">
+     <int>68</int>
+    </void>
+    <void property="locationX">
+     <int>375</int>
+    </void>
+    <void property="locationY">
+     <int>155</int>
+    </void>
+    <void id="Point6" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point6"/>
+       <int>375</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point6"/>
+       <int>155</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point7" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point7"/>
+       <int>388</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point7"/>
+       <int>68</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel4">
+    <void property="ID">
+     <int>9</int>
+    </void>
+    <void property="color">
+     <object idref="Color1"/>
+    </void>
+    <void property="height">
+     <int>82</int>
+    </void>
+    <void property="locationX">
+     <int>322</int>
+    </void>
+    <void property="locationY">
+     <int>124</int>
+    </void>
+    <void id="Point8" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point8"/>
+       <int>322</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point8"/>
+       <int>124</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point9" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point9"/>
+       <int>318</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point9"/>
+       <int>82</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>10</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>374</int>
+    </void>
+    <void property="locationY">
+     <int>85</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel5">
+    <void property="ID">
+     <int>11</int>
+    </void>
+    <void property="color">
+     <object idref="Color1"/>
+    </void>
+    <void property="height">
+     <int>149</int>
+    </void>
+    <void property="locationX">
+     <int>272</int>
+    </void>
+    <void property="locationY">
+     <int>156</int>
+    </void>
+    <void id="Point10" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point10"/>
+       <int>272</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point10"/>
+       <int>156</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point11" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point11"/>
+       <int>300</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point11"/>
+       <int>149</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel6">
+    <void property="ID">
+     <int>12</int>
+    </void>
+    <void property="color">
+     <object idref="Color1"/>
+    </void>
+    <void property="height">
+     <int>98</int>
+    </void>
+    <void property="locationX">
+     <int>363</int>
+    </void>
+    <void property="locationY">
+     <int>77</int>
+    </void>
+    <void id="Point12" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point12"/>
+       <int>363</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point12"/>
+       <int>77</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point13" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point13"/>
+       <int>377</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point13"/>
+       <int>98</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>13</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>11</int>
+    </void>
+    <void property="locationX">
+     <int>356</int>
+    </void>
+    <void property="locationY">
+     <int>68</int>
+    </void>
+    <void property="width">
+     <int>14</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>14</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>51</int>
+      <int>51</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>20</int>
+    </void>
+    <void property="locationX">
+     <int>260</int>
+    </void>
+    <void property="locationY">
+     <int>156</int>
+    </void>
+    <void property="width">
+     <int>22</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>15</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>153</int>
+      <int>153</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>19</int>
+    </void>
+    <void property="locationX">
+     <int>364</int>
+    </void>
+    <void property="locationY">
+     <int>97</int>
+    </void>
+    <void property="width">
+     <int>18</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>16</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color3">
+      <int>0</int>
+      <int>204</int>
+      <int>0</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>7</int>
+    </void>
+    <void property="locationX">
+     <int>245</int>
+    </void>
+    <void property="locationY">
+     <int>123</int>
+    </void>
+    <void property="width">
+     <int>17</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>17</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>301</int>
+    </void>
+    <void property="locationY">
+     <int>107</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>18</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>9</int>
+    </void>
+    <void property="locationX">
+     <int>375</int>
+    </void>
+    <void property="locationY">
+     <int>115</int>
+    </void>
+    <void property="width">
+     <int>7</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>19</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>283</int>
+    </void>
+    <void property="locationY">
+     <int>85</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>20</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>303</int>
+    </void>
+    <void property="locationY">
+     <int>115</int>
+    </void>
+    <void property="width">
+     <int>18</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>21</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>309</int>
+    </void>
+    <void property="locationY">
+     <int>83</int>
+    </void>
+    <void property="width">
+     <int>15</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>22</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>11</int>
+    </void>
+    <void property="locationX">
+     <int>356</int>
+    </void>
+    <void property="locationY">
+     <int>78</int>
+    </void>
+    <void property="width">
+     <int>16</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>23</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>378</int>
+    </void>
+    <void property="locationY">
+     <int>60</int>
+    </void>
+    <void property="width">
+     <int>13</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>24</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>14</int>
+    </void>
+    <void property="locationX">
+     <int>276</int>
+    </void>
+    <void property="locationY">
+     <int>123</int>
+    </void>
+    <void property="width">
+     <int>13</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>25</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>15</int>
+    </void>
+    <void property="locationX">
+     <int>310</int>
+    </void>
+    <void property="locationY">
+     <int>146</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>26</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>328</int>
+    </void>
+    <void property="locationY">
+     <int>125</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>27</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>12</int>
+    </void>
+    <void property="locationX">
+     <int>370</int>
+    </void>
+    <void property="locationY">
+     <int>132</int>
+    </void>
+    <void property="width">
+     <int>10</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>28</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>16</int>
+    </void>
+    <void property="locationX">
+     <int>342</int>
+    </void>
+    <void property="locationY">
+     <int>161</int>
+    </void>
+    <void property="width">
+     <int>14</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>29</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>11</int>
+    </void>
+    <void property="locationX">
+     <int>343</int>
+    </void>
+    <void property="locationY">
+     <int>136</int>
+    </void>
+    <void property="width">
+     <int>16</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>30</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>8</int>
+    </void>
+    <void property="locationX">
+     <int>378</int>
+    </void>
+    <void property="locationY">
+     <int>122</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>31</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>12</int>
+    </void>
+    <void property="locationX">
+     <int>381</int>
+    </void>
+    <void property="locationY">
+     <int>87</int>
+    </void>
+    <void property="width">
+     <int>10</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>32</int>
+    </void>
+    <void property="color">
+     <object idref="Color3"/>
+    </void>
+    <void property="height">
+     <int>10</int>
+    </void>
+    <void property="locationX">
+     <int>285</int>
+    </void>
+    <void property="locationY">
+     <int>104</int>
+    </void>
+    <void property="width">
+     <int>16</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>33</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>10</int>
+    </void>
+    <void property="locationX">
+     <int>325</int>
+    </void>
+    <void property="locationY">
+     <int>136</int>
+    </void>
+    <void property="width">
+     <int>14</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>34</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>11</int>
+    </void>
+    <void property="locationX">
+     <int>266</int>
+    </void>
+    <void property="locationY">
+     <int>133</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>35</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>255</int>
+      <int>51</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>87</int>
+    </void>
+    <void property="locationX">
+     <int>-21</int>
+    </void>
+    <void property="locationY">
+     <int>-34</int>
+    </void>
+    <void property="width">
+     <int>97</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>36</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>320</int>
+    </void>
+    <void property="locationY">
+     <int>156</int>
+    </void>
+    <void property="width">
+     <int>13</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>37</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>13</int>
+    </void>
+    <void property="locationX">
+     <int>321</int>
+    </void>
+    <void property="locationY">
+     <int>115</int>
+    </void>
+    <void property="width">
+     <int>15</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>38</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>8</int>
+    </void>
+    <void property="locationX">
+     <int>310</int>
+    </void>
+    <void property="locationY">
+     <int>95</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>39</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>10</int>
+    </void>
+    <void property="locationX">
+     <int>374</int>
+    </void>
+    <void property="locationY">
+     <int>153</int>
+    </void>
+    <void property="width">
+     <int>8</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>40</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>11</int>
+    </void>
+    <void property="locationX">
+     <int>356</int>
+    </void>
+    <void property="locationY">
+     <int>145</int>
+    </void>
+    <void property="width">
+     <int>12</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>41</int>
+    </void>
+    <void property="color">
+     <object idref="Color2"/>
+    </void>
+    <void property="height">
+     <int>12</int>
+    </void>
+    <void property="locationX">
+     <int>312</int>
+    </void>
+    <void property="locationY">
+     <int>72</int>
+    </void>
+    <void property="width">
+     <int>14</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>42</int>
+    </void>
+    <void property="color">
+     <object idref="Color0"/>
+    </void>
+    <void property="height">
+     <int>49</int>
+    </void>
+    <void property="locationX">
+     <int>30</int>
+    </void>
+    <void property="locationY">
+     <int>11</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>43</int>
+    </void>
+    <void property="color">
+     <object idref="Color0"/>
+    </void>
+    <void property="height">
+     <int>40</int>
+    </void>
+    <void property="locationX">
+     <int>81</int>
+    </void>
+    <void property="locationY">
+     <int>15</int>
+    </void>
+    <void property="width">
+     <int>52</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>44</int>
+    </void>
+    <void property="color">
+     <object idref="Color0"/>
+    </void>
+    <void property="height">
+     <int>27</int>
+    </void>
+    <void property="locationX">
+     <int>255</int>
+    </void>
+    <void property="locationY">
+     <int>23</int>
+    </void>
+    <void property="width">
+     <int>47</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>45</int>
+    </void>
+    <void property="color">
+     <object idref="Color0"/>
+    </void>
+    <void property="height">
+     <int>15</int>
+    </void>
+    <void property="locationX">
+     <int>297</int>
+    </void>
+    <void property="locationY">
+     <int>31</int>
+    </void>
+    <void property="width">
+     <int>29</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>46</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>153</int>
+      <int>153</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>16</int>
+    </void>
+    <void property="locationX">
+     <int>179</int>
+    </void>
+    <void property="locationY">
+     <int>217</int>
+    </void>
+    <void property="width">
+     <int>23</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>47</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>153</int>
+      <int>153</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>60</int>
+    </void>
+    <void property="locationX">
+     <int>152</int>
+    </void>
+    <void property="locationY">
+     <int>162</int>
+    </void>
+    <void property="width">
+     <int>73</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>48</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>153</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>65</int>
+    </void>
+    <void property="locationX">
+     <int>195</int>
+    </void>
+    <void property="locationY">
+     <int>311</int>
+    </void>
+    <void property="width">
+     <int>31</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>49</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>153</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>67</int>
+    </void>
+    <void property="locationX">
+     <int>156</int>
+    </void>
+    <void property="locationY">
+     <int>310</int>
+    </void>
+    <void property="width">
+     <int>33</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>50</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>102</int>
+      <int>102</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>93</int>
+    </void>
+    <void property="locationX">
+     <int>156</int>
+    </void>
+    <void property="locationY">
+     <int>227</int>
+    </void>
+    <void property="width">
+     <int>70</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>51</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color4">
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>16</int>
+    </void>
+    <void property="locationX">
+     <int>191</int>
+    </void>
+    <void property="locationY">
+     <int>172</int>
+    </void>
+    <void property="width">
+     <int>19</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>52</int>
+    </void>
+    <void property="color">
+     <object idref="Color4"/>
+    </void>
+    <void property="height">
+     <int>15</int>
+    </void>
+    <void property="locationX">
+     <int>170</int>
+    </void>
+    <void property="locationY">
+     <int>173</int>
+    </void>
+    <void property="width">
+     <int>19</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel7">
+    <void property="ID">
+     <int>53</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>51</int>
+      <int>51</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>207</int>
+    </void>
+    <void property="locationX">
+     <int>202</int>
+    </void>
+    <void property="locationY">
+     <int>207</int>
+    </void>
+    <void id="Point14" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point14"/>
+       <int>202</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point14"/>
+       <int>207</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point15" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point15"/>
+       <int>178</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point15"/>
+       <int>207</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>54</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color5">
+      <int>51</int>
+      <int>51</int>
+      <int>51</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>7</int>
+    </void>
+    <void property="locationX">
+     <int>198</int>
+    </void>
+    <void property="locationY">
+     <int>178</int>
+    </void>
+    <void property="width">
+     <int>7</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>55</int>
+    </void>
+    <void property="color">
+     <object idref="Color5"/>
+    </void>
+    <void property="height">
+     <int>9</int>
+    </void>
+    <void property="locationX">
+     <int>175</int>
+    </void>
+    <void property="locationY">
+     <int>176</int>
+    </void>
+    <void property="width">
+     <int>9</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel8">
+    <void property="ID">
+     <int>56</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color6">
+      <int>255</int>
+      <int>51</int>
+      <int>51</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>202</int>
+    </void>
+    <void property="locationX">
+     <int>176</int>
+    </void>
+    <void property="locationY">
+     <int>204</int>
+    </void>
+    <void id="Point16" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point16"/>
+       <int>176</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point16"/>
+       <int>204</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point17" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point17"/>
+       <int>173</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point17"/>
+       <int>202</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DLineModel" id="DLineModel9">
+    <void property="ID">
+     <int>57</int>
+    </void>
+    <void property="color">
+     <object idref="Color6"/>
+    </void>
+    <void property="height">
+     <int>198</int>
+    </void>
+    <void property="locationX">
+     <int>201</int>
+    </void>
+    <void property="locationY">
+     <int>207</int>
+    </void>
+    <void id="Point18" property="p1">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point18"/>
+       <int>201</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point18"/>
+       <int>207</int>
+      </void>
+     </void>
+    </void>
+    <void id="Point19" property="p2">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point19"/>
+       <int>210</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point19"/>
+       <int>198</int>
+      </void>
+     </void>
+    </void>
+    <void property="thickness">
+     <int>4</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>58</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color7">
+      <int>102</int>
+      <int>102</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>24</int>
+    </void>
+    <void property="locationX">
+     <int>111</int>
+    </void>
+    <void property="locationY">
+     <int>194</int>
+    </void>
+    <void property="width">
+     <int>26</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>59</int>
+    </void>
+    <void property="color">
+     <object idref="Color7"/>
+    </void>
+    <void property="height">
+     <int>20</int>
+    </void>
+    <void property="locationX">
+     <int>117</int>
+    </void>
+    <void property="locationY">
+     <int>207</int>
+    </void>
+    <void property="width">
+     <int>24</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>60</int>
+    </void>
+    <void property="color">
+     <object idref="Color7"/>
+    </void>
+    <void property="height">
+     <int>21</int>
+    </void>
+    <void property="locationX">
+     <int>125</int>
+    </void>
+    <void property="locationY">
+     <int>216</int>
+    </void>
+    <void property="width">
+     <int>22</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>61</int>
+    </void>
+    <void property="color">
+     <object idref="Color7"/>
+    </void>
+    <void property="height">
+     <int>23</int>
+    </void>
+    <void property="locationX">
+     <int>139</int>
+    </void>
+    <void property="locationY">
+     <int>221</int>
+    </void>
+    <void property="width">
+     <int>20</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>62</int>
+    </void>
+    <void property="color">
+     <object idref="Color7"/>
+    </void>
+    <void property="height">
+     <int>23</int>
+    </void>
+    <void property="locationX">
+     <int>219</int>
+    </void>
+    <void property="locationY">
+     <int>227</int>
+    </void>
+    <void property="width">
+     <int>24</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>63</int>
+    </void>
+    <void property="color">
+     <object idref="Color7"/>
+    </void>
+    <void property="height">
+     <int>24</int>
+    </void>
+    <void property="locationX">
+     <int>232</int>
+    </void>
+    <void property="locationY">
+     <int>232</int>
+    </void>
+    <void property="width">
+     <int>23</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>64</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color8">
+      <int>255</int>
+      <int>153</int>
+      <int>153</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>27</int>
+    </void>
+    <void property="locationX">
+     <int>238</int>
+    </void>
+    <void property="locationY">
+     <int>272</int>
+    </void>
+    <void property="width">
+     <int>24</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>65</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color9">
+      <int>102</int>
+      <int>102</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>25</int>
+    </void>
+    <void property="locationX">
+     <int>239</int>
+    </void>
+    <void property="locationY">
+     <int>242</int>
+    </void>
+    <void property="width">
+     <int>21</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>66</int>
+    </void>
+    <void property="color">
+     <object idref="Color9"/>
+    </void>
+    <void property="height">
+     <int>17</int>
+    </void>
+    <void property="locationX">
+     <int>242</int>
+    </void>
+    <void property="locationY">
+     <int>261</int>
+    </void>
+    <void property="width">
+     <int>15</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DOvalModel">
+    <void property="ID">
+     <int>67</int>
+    </void>
+    <void property="color">
+     <object idref="Color8"/>
+    </void>
+    <void property="height">
+     <int>34</int>
+    </void>
+    <void property="locationX">
+     <int>106</int>
+    </void>
+    <void property="locationY">
+     <int>165</int>
+    </void>
+    <void property="width">
+     <int>36</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>68</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color" id="Color10">
+      <int>255</int>
+      <int>51</int>
+      <int>51</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>22</int>
+    </void>
+    <void property="locationX">
+     <int>145</int>
+    </void>
+    <void property="locationY">
+     <int>370</int>
+    </void>
+    <void property="width">
+     <int>40</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DRectModel">
+    <void property="ID">
+     <int>69</int>
+    </void>
+    <void property="color">
+     <object idref="Color10"/>
+    </void>
+    <void property="height">
+     <int>25</int>
+    </void>
+    <void property="locationX">
+     <int>199</int>
+    </void>
+    <void property="locationY">
+     <int>368</int>
+    </void>
+    <void property="width">
+     <int>37</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DTextModel">
+    <void property="ID">
+     <int>70</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>0</int>
+      <int>153</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="font">
+     <object class="java.awt.Font">
+      <string>Dialog</string>
+      <int>0</int>
+      <int>51</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>59</int>
+    </void>
+    <void property="locationX">
+     <int>52</int>
+    </void>
+    <void property="locationY">
+     <int>56</int>
+    </void>
+    <void property="width">
+     <int>178</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="DTextModel">
+    <void property="ID">
+     <int>71</int>
+    </void>
+    <void property="color">
+     <object class="java.awt.Color">
+      <int>51</int>
+      <int>153</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void property="font">
+     <object class="java.awt.Font">
+      <string>Dialog</string>
+      <int>0</int>
+      <int>45</int>
+     </object>
+    </void>
+    <void property="height">
+     <int>50</int>
+    </void>
+    <void property="locationX">
+     <int>121</int>
+    </void>
+    <void property="locationY">
+     <int>117</int>
+    </void>
+    <void property="text">
+     <string>World!</string>
+    </void>
+    <void property="width">
+     <int>155</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

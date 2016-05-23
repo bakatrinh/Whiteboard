@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="TrinhWhiteboard" basedir="." default="jar">
+    <property name="source.dir"     value="src"/>
+    <property name="lib.dir"        value="lib"/>
+    <property name="class.dir"      value="bin"/>
+    <property name="jar.dir"        value="./"/>
+    <property name="jar.file"        value="${jar.dir}/${ant.project.name}.jar"/>
+	<property name="dist.lib.dir"     value="temp"/>
+    <property name="main-class"     value="Whiteboard"/>
+
+    <path id="libraries.path">    
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="compile" description="build class files">
+        <mkdir dir="${class.dir}"/>
+        <javac srcdir="${source.dir}" destdir="${class.dir}" includeantruntime="false">
+            <classpath refid="libraries.path"/>
+        </javac>
+    </target>
+	
+	<target name="copy-dependencies">
+
+			<mkdir dir="${dist.lib.dir}" />
+
+			<jar jarfile="${dist.lib.dir}/dependencies-all.jar">
+				<zipgroupfileset dir="${lib.dir}">
+					<include name="**/*.jar" />
+				</zipgroupfileset>
+			</jar>
+
+		</target>
+
+    <target name="jar" depends="compile, copy-dependencies">
+        <mkdir dir="${jar.dir}"/>
+
+        <jar destfile="${jar.file}" basedir="${class.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+            </manifest>
+        	<zipfileset src="${dist.lib.dir}/dependencies-all.jar" 
+        	                                excludes="META-INF/*.SF" />
+        </jar>  
+    </target>
+	
+	<target name="clean" description="clean up" depends="jar">
+			<delete dir="${dist.lib.dir}" />
+		</target>
+
+    <target name="run" depends="jar">
+        <java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
+    </target>
+
+</project>
